@@ -24,7 +24,16 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 
 ## Getting Start
 
-There are currently 8 components to generate a zipper pair from a curve named `Rule Generation`, `Raw Unit`, `Flatten`, `Base Cut`, `Unit cut`, `Ribbon`, `Featured Unit`, `Zipper Rearrange`. Each of them is comprised of a input list, a cluster of batteries, an output list and an icon.
+There are currently 8 components to generate a zipper pair from a curve named `Rule Generation`, `Raw Unit`, `Flatten`, `Base Cut`, `Unit cut`, `Ribbon`, `Featured Unit`, `Zipper Rearrange`. Each of them is comprised of a input list, a cluster of batteries, an output list and an icon. The icons are listed in 
+
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Data 1   | Data 2   |
+{#mytable}
+
+
+> [引用的表格](#mytable)
 
 ### Rule Generation
 
@@ -37,9 +46,11 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 
 **Output**: This components have 4 outputs and the informations are listed below:
 - Rules: Rules calculated sequential according to the initial rule direction determined by Alpha and Beta
-- Points: 
-- B_vec: 
-- T_vec:
+- Points: Points for dividing the space curve
+- B_vec: Binormal vector at each point
+- T_vec: Tangent vector at each point
+
+**
 
 ## Communication
 
