@@ -19,7 +19,7 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 ### Configuration
 
 1. Download [cluster files](./Touch-n-Curl%20Clusters) 
-2. Move the folder into a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/Grasshopper/UserObjects`(for Windows users： `C:\Users\86181\AppData\Roaming\Grasshopper\UserObjects` ).
+2. Move the folder into a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/Grasshopper/UserObjects`(for Windows users： `C:\Users\YOUR_USER_NAME\AppData\Roaming\Grasshopper\UserObjects` ).
 3. Restart Rhino and enjoy.
 
 ## Getting Start
