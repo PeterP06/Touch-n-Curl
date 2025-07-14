@@ -4,7 +4,7 @@
 
 Touch-n-Curl is a design and construction system for rapidly prototyping 3D skeletal curved structures, covering scales from millimeters to meters, by printing 2D zipper assemblies with interlocking mechanisms using conventional 3D printers. This parametric design tool is developed to support this inverse design workflow, instantly generating 2D zippers and offering a preview of the 3D skeletal assembly.
 
-This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper. Its input is a skeleton form(curve only for now) and output is zipper pair for 3D-printing. For more information, please refer to our paper:
+This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper. Its input is a skeleton form(curve only for now) and output is zipper pair for 3D-printing. For further information, please refer to our paper:
 
 ## Installation
 
@@ -18,11 +18,26 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 
 ### Configuration
 
-1. Download [cluster files](./Touch-n-Curl%20Clusters) into a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)/UserObjects`.
-2. Restart Rhino and enjoy.
+1. Download [cluster files](./Touch-n-Curl%20Clusters) 
+2. Move the folder into a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/Grasshopper/UserObjects`(for Windows users： `C:\Users\86181\AppData\Roaming\Grasshopper\UserObjects` ).
+3. Restart Rhino and enjoy.
 
 ## Getting Start
-a
+
+There are currently 8 components to generate a zipper pair from a curve named `Rule Generation`, `Raw Unit`, `Flatten`, `Base Cut`, `Unit cut`, `Ribbon`, `Featured Unit`, `Zipper Rearrange`. Each of them is comprised of a input list, a cluster of batteries, an output list and an icon.
+
+### Rule Generation
+
+**Input**: This Component have 5 inputs and the informations are listed below:
+- Curve: The input space curve
+- Alpha: One of the two angles that decide the direction of the first rule
+- Beta: Another angle for direction
+- i: The multiplier of the overall scale of units
+- Curve_Scale: The multiplier of the scale of input curve
+
+**Output**: This components have 4 outputs and the informations are listed below:
+- 
+
 ## Communication
 
 ## Acknowledgement
