@@ -28,7 +28,7 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 
 
 | Rule Generate | Ribbon | Flatten | Raw Unit | Base Cut | Unit Cut | Featured Unit | Zipper Rearrange |
-|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+|---------------|------------------|----------|----------|----------|---------------|------------------|------------------|
 | Data 1   | Data 2   |
 
 ### Rule Generation
