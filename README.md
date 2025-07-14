@@ -13,10 +13,13 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 - A computer compatible with Python 3.8 or higher
 - Rhino 8 with Grasshopper (Grasshopper is included by default when installing Rhino)
 - Wombat (A plugin for Grasshopper)
-  - For Windows or Mac with Intel chips: Drag the [example file](./Example.gh) into Rhino and follow the on-screen instructions`OR` download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh)
-  - Download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh) and move the downloaded folder to a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/packages/8.0`
+  - For Windows or Mac with Intel chips users: Drag the [example file](./Example.gh) into Rhino and follow the on-screen instructions `OR` download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh)
+  - For Mac with Silicon chips users: Download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh) and move the downloaded folder to a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/packages/8.0`
 
-### 
+### Configuration
+
+1. Download [cluster files](./Touch-n-Curl%20Clusters) into a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)/UserObjects`.
+2. Restart Rhino and enjoy.
 
 ## Getting Start
 a
