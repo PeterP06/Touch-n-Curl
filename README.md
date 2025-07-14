@@ -60,11 +60,70 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 
 ### Ribbon
 
-** Input**: 
+**Input**: 
 - Planar_curve:
-- 
+- i:
+- Width:
+- Height:
+
+**Output**:
+- Ribbon:
+
+### Raw Unit
+
+**Input**:
+- Planar_curve:
+- Points_curve:
+- i:
+- Loft_Angle:
+
+**Output**:
+- Unit:
+
+### Base Cut
+
+**Input**:
+- i:
+- Planar_Curve:
+- Flattened_Points:
+- Base_Cut_X:
+- Base_Cut_Y:
+
+**Output**:
+- Case_Cut:
+
+### Unit Cut
+
+**Input**:
+- i:
+- Flattened_Points:
+- Planar_Curve:
+
+**Output**:
+- Unit_Cut:
+
+### Featured Unit
+
+**Input**:
+- i:
+- Unit:
+- Unit_Cut:
+- Splint_Cut:
+
+**Output**:
+- Featured_Unit:
+
+### Zipper Rearrange
+
+**Input**:
+- Geo:
+
+**Output**:
+- Rearranged_Zipper:
 
 ## Communication
+
+
 
 ## Acknowledgement
 
