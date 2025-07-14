@@ -36,7 +36,10 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 - Curve_Scale: The multiplier of the scale of input curve
 
 **Output**: This components have 4 outputs and the informations are listed below:
-- 
+- Rules:
+- B_vec:
+- Points:
+- T_vec:
 
 ## Communication
 
