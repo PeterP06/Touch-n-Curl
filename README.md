@@ -26,10 +26,9 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 
 There are currently 8 components to generate a zipper pair from a curve named `Rule Generation`, `Raw Unit`, `Flatten`, `Base Cut`, `Unit cut`, `Ribbon`, `Featured Unit`, `Zipper Rearrange`. Each of them is comprised of a input list, a cluster of batteries, an output list and an icon. The icons are listed in the following table:
 
-
 | Rule Generate | Ribbon | Flatten | Raw Unit | Base Cut | Unit Cut | Featured Unit | Zipper Rearrange |
-|---------------|------------------|----------|----------|----------|---------------|------------------|------------------|
-| <img width="60" height="60" alt="rules" src="https://github.com/user-attachments/assets/edaac219-1d70-40a7-92ec-9b2132992b9c" /> | <img width="60" height="60" alt="ribbon" src="https://github.com/user-attachments/assets/1899e7ca-bb1f-4781-8c79-f766af3fc4c3" /> | - ｜ <img width="60" height="60" alt="raw_unit" src="https://github.com/user-attachments/assets/e35ac313-32f7-4529-b680-26bf845db4fe" /> ｜ <img width="60" height="60" alt="side_cut" src="https://github.com/user-attachments/assets/8495b2de-aea2-4480-9446-7a22ea3d9ad1" /> ｜ <img width="60" height="60" alt="unit_cut" src="https://github.com/user-attachments/assets/bb19142c-9c30-4013-9c4e-de8630e1f8db" />｜ <img width="60" height="60" alt="featured_unit" src="https://github.com/user-attachments/assets/922243f8-c4a6-4a60-9aef-f0958e69ece4" />｜ - ｜
+|---------------|--------|---------|----------|----------|----------|---------------|-------------------|
+| <img width="60" height="60" alt="rules" src="https://github.com/user-attachments/assets/edaac219-1d70-40a7-92ec-9b2132992b9c" /> | <img width="60" height="60" alt="ribbon" src="https://github.com/user-attachments/assets/1899e7ca-bb1f-4781-8c79-f766af3fc4c3" /> | <img width="60" height="60" alt="flatten" src="https://github.com/user-attachments/assets/c38c7353-054d-419e-83a9-bdedd852603b" /> | <img width="60" height="60" alt="raw_unit" src="https://github.com/user-attachments/assets/e35ac313-32f7-4529-b680-26bf845db4fe" /> | <img width="60" height="60" alt="side_cut" src="https://github.com/user-attachments/assets/8495b2de-aea2-4480-9446-7a22ea3d9ad1" /> | <img width="60" height="60" alt="unit_cut" src="https://github.com/user-attachments/assets/bb19142c-9c30-4013-9c4e-de8630e1f8db" /> | <img width="60" height="60" alt="featured_unit" src="https://github.com/user-attachments/assets/922243f8-c4a6-4a60-9aef-f0958e69ece4" /> | - |
  
 
 
