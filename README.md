@@ -10,11 +10,11 @@ This program is based on Rhino&Grasshoper and exist as a plug-in of Grasshopper.
 
 ### Prerequisites
 
-- Rhino 8 with Grasshopper(默认会在下载Rhino的同时安装)
-
-- Wombat(A plug-in for Grasshopper)
-  - For Windows/Mac with Intel 芯片: Drag [example file](./Example.gh) into Rhino and follow the instruction or download from [Food4Rhino](https://www.food4rhino.com/)
-  - For Mac with Silicon 芯片:
+- A computer compatible with Python 3.8 or higher
+- Rhino 8 with Grasshopper (Grasshopper is included by default when installing Rhino)
+- Wombat (A plugin for Grasshopper)
+  - For Windows or Mac with Intel chips: Drag the [example file](./Example.gh) into Rhino and follow the on-screen instructions`OR` download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh)
+  - Download from [Food4Rhino](https://www.food4rhino.com/en/app/wombatgh) and move the downloaded folder to a path similar to `/Users/YOUR_USER_NAME./Library/Application Support/McNeel/Rhinoceros/packages/8.0`
 
 ## Getting Start
 
