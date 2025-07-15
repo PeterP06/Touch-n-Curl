@@ -61,65 +61,65 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 ### Ribbon
 
 **Input**: 
-- Planar_curve:
-- i:
-- Width:
-- Height:
+- Planar_curve: A planar curve that represent the ribbon's shape
+- i:The multiplier of the overall scale of units
+- Width: The width of ribbon
+- Height: The height of ribbon
 
 **Output**:
-- Ribbon:
+- Ribbon: Ribbon with target shape, width and height
 
 ### Raw Unit
 
 **Input**:
-- Planar_curve:
-- Points_curve:
-- i:
-- Loft_Angle:
+- Planar_curve: Curve used to arrange zipper teeth on it
+- Points_curve: Units' center points along the curve 
+- i:The multiplier of the overall scale of units
+- Loft_Angle: The angle between the inclinde side of the zipper's inverted trapezoidal structure and the vertical direction
 
 **Output**:
-- Unit:
+- Unit: A series of feature-free units whose location and direction determined by the curve and center points
 
 ### Base Cut
 
 **Input**:
-- i:
-- Planar_Curve:
-- Flattened_Points:
-- Base_Cut_X:
-- Base_Cut_Y:
+- i: The multiplier of the overall scale of units
+- Planar_Curve: Curve for generating the base ribbon
+- Flattened_Points: Units' center points along the curve 
+- Base_Cut_X: Length of base cut from the top view
+- Base_Cut_Y: Width of base cut from the top view
 
 **Output**:
-- Case_Cut:
+- Base_Cut: A series of base cuts generated with personalized location and direction 
 
 ### Unit Cut
 
 **Input**:
-- i:
-- Flattened_Points:
-- Planar_Curve:
+- i: The multiplier of the overall scale of units
+- Flattened_Points: Units' center points along the curve 
+- Planar_Curve: Curve used to arrange zipper teeth on it
 
 **Output**:
-- Unit_Cut:
+- Unit_Cut: A series of unit cuts generated with personalized location and direction 
 
 ### Featured Unit
 
 **Input**:
-- i:
-- Unit:
-- Unit_Cut:
-- Splint_Cut:
+- i: The multiplier of the overall scale of units
+- Unit: Generated units whose location and direction determined by the curve and center points
+- Unit_Cut: Generated unit cuts with personalized location and direction
+- Splint_Cut: Generated ribbon as splint cut
 
 **Output**:
-- Featured_Unit:
+- Featured_Unit: A series of units with features
 
 ### Zipper Rearrange
 
 **Input**:
-- Geo:
+- Geo: Generated zipper pair for rearrange
 
 **Output**:
-- Rearranged_Zipper:
+- Rearranged_Zipper: Rearranged zipper without intersection
 
 ## Communication
 
