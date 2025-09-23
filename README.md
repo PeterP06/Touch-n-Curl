@@ -123,7 +123,7 @@ There are currently 8 components to generate a zipper pair from a curve named `R
 
 ## Communication
 
-
+For further information,please
 
 ## Acknowledgement
 
