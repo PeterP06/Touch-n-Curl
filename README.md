@@ -131,4 +131,10 @@ Email: deyingp2@zju.edu.cn / nofcfy@gmail.com
 
 ## Acknowledgement
 
+This project was supported by Zhejiang Provincial Natural Science Foundation of China under Grant No.LR24F020001 and by the National Natural Science Foundation of China under Grant
+No.T2422021.
+We express our appreciation for the constructive feedback from all reviewers. The authors also thank Junzhe Ji and Jiaji Li for their suggestions in the computational pipeline, and Lei Ren, Yangfangzheng Li, Ge Gao, and Bolan Yao for their contributions to the design of the application and the evaluation of the design tools. The authors also thank Prof. Alexandra Ion for her valuable input in the rebuttal stage.
+
 ## Copyright
+
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org.
